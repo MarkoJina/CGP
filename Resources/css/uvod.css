@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigacny_panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/hviezdy.jpg);
+    width: 100%;
+    border-bottom: 2px solid cyan;
+    border-top: 2px solid cyan;
+}
+
+.logo_stranka {
+    margin-left: 120px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav {
+    flex: 1;
+    text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: transform 0.5s;
+}
+
+.menu {
+    margin-left: 20px;
+    transition: transform 0.5s;
+}
+
+.kosik {
+    margin-right: 120px;
+}
+
+.kontajner1 {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.kontajner {
+    margin-top: 68px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(../images/pozadie4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%; 
+    padding-right: 8%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.riadok {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.stlpec {
+    flex-basis: 50%;
+
+}
+
+h1 {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
+    font-size: 65px;
+    line-height: 70px px;
+    padding: 20px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    line-height: 17px;
+    text-shadow: grey;
+}
+
+.mriezka {
+    padding: 15px 25px;
+    display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+img {
+    background-position: center;
+    border-radius: 10px;
+}
+
+.mriezka:hover {
+    transform: translateY(-5px);
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+.stara_cena {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.nova_cena {
+    color: red;
+}
+
+.video_audio {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy {
+    color: cyan;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top: 2px solid cyan;
+    font-size: 11px;
+    border-top: 1px solid cyan;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/hviezdy.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.copytext {
+    padding: 8px;
+}
